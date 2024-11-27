@@ -1,0 +1,63 @@
+/* General Styling */
+body {
+    margin-top: 56px; /* For fixed navbar */
+  }
+  
+  /* Hero Section */
+  /* Hero Section */
+.hero-section {
+    background: linear-gradient(90deg, #4b79a1, #283e51);
+    padding: 100px 0;
+    color: black;
+    position: relative;
+  }
+  
+  .carousel-inner {
+    min-height: 400px; /* Adjust based on your preference */
+  }
+  
+  .carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #fff; /* Ensure icons are visible */
+    border-radius: 50%;
+  }
+  
+  
+  /* Working Process */
+  .working-process h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .process-step {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .process-step:hover {
+    transform: translateY(-10px);
+  }
+  
+  .process-step span {
+    font-size: 2rem;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  footer {
+    background: #f8f9fa;
+    color: #6c757d;
+  }
+  
